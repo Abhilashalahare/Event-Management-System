@@ -1,7 +1,9 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'http://localhost:5001/api', // Matches your backend port
+  // baseURL: 'http://localhost:5001/api', 
+  baseURL: 'https://event-management-system-38gi.onrender.com/api',
+
 });
 
 // Add a request interceptor
